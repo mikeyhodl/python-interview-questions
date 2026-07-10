@@ -1,7 +1,6 @@
-import sys
-import csv
-import re
-
+import sys         #for comand line argv
+import csv         #for work with csv
+import re          #for checks matches
 
 class FindMatches(object):
     """ Takes a .csv input file and a matching type and returns a copy of the original csv with the unique identifier of the person each row represents prepended to the row.
